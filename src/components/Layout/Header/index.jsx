@@ -10,14 +10,13 @@ export const Header = () => {
             </Title>
             <Navigation>
                 <ul> 
-                    <a href="
-                    ">
+                    <a href="#home">
                         <li>Home</li>
                     </a>
-                    <a href="">
+                    <a href="#projects">
                         <li>Projects</li>
                     </a>
-                    <a href="">
+                    <a href="#contact">
                         <li>Contact</li>
                     </a>
                   

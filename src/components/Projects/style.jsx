@@ -10,7 +10,3 @@ export const Card = styled.div`
     transition: .5s ;
 `
 
-export const SubTitle = styled.h2`
-        
-
-`
