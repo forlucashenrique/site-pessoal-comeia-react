@@ -6,7 +6,6 @@ import { SubTitle } from "../shared/SubTitle"
 import { Button, FormStyled, InputStyeld, Textarea } from "./Forms/style"
 
 
-
 export const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -16,7 +15,6 @@ export const Contact = () => {
 
     const handleOnClick = (e) => {
         e.preventDefault();
-
 
         const texto = `Nome: ${name}\nE-mail: ${email}\nTelefone: ${number}\nMensagem: ${message}`;
         const textoCodificado = encodeURIComponent(texto);
