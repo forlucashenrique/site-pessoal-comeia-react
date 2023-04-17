@@ -6,15 +6,8 @@ export const Layout = ({children}) => {
     return (
         <LayoutStyled>
             <Header/>
-            <div
-                style={{
-                    minHeight: '900px'
-                }}
-            >
-                
                 {children}
-            </div>
-            <Footer />
+            <Footer/>
         </LayoutStyled>
 
         

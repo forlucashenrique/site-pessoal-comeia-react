@@ -12,7 +12,7 @@ export const HeaderStyled = styled.header`
 `
 
 export const Title = styled.h1`
-    font-size: 3rem;
+    font-size: 4.8rem;
 `
 
 export const Navigation = styled.nav`
@@ -24,7 +24,7 @@ export const Navigation = styled.nav`
     }
 
     & a {
-        font-size: 1.3rem;
+        font-size: 2.4rem;
         font-weight: 500;
         padding: 10px;
         border-radius: 10px;

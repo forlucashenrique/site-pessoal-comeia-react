@@ -20,7 +20,7 @@ export const FooterStyled = styled.footer`
     & span {
         margin-right: 5px;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         font-weight: bold;
     }
 
