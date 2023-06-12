@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://json-server-hii0.onrender.com/',
+    baseURL: "https://crud-express-myporfolio.onrender.com/",
 })
 
 

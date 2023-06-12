@@ -16,8 +16,8 @@ export const Projects = () => {
         const getProjects = async () => {
             try {
                 const response = await api.get('projects');
-                const data = response.data;
-                console.log(data);
+                const data = response.data.results;
+                
                 setProjects(data);
             } catch (error) {
                 console.log(error);
@@ -39,9 +39,9 @@ export const Projects = () => {
                 {
                     projects.length > 0 && (
                         projects.map(item => (
-                            <a target='_blank'>
+                            <a target='_blank' key={item.project_name}>
                                 <Card>
-                                    <img src={item.projectImageUrl} />
+                                    <img src={item.project_image_url} />
                                 </Card>
                             </a>)
                         )
